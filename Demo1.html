@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--A-Frame Framework-->
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    <!-- environment component -->
+      <script src="https://unpkg.com/aframe-environment-component/dist/aframe-environment-component.min.js"></script>
+  </head>
+  <body>
+    <a-scene background="color: #212">
+      <!--Floor-->
+      <a-plane position = "0 0 0" scale = "20 20 1" rotation = "-90 0 0 " color = "#4d4d4d"></a-plane>   
+      <a-sky color = "#212"></a-sky>
+      
+      <!--Basic Shapes -->
+      <a-sphere position="-8 2 -8" color="red" opacity= "0.8"></a-sphere>
+      <a-cone position="-4 0 -8"color= "yellow" ></a-cone>
+      <a-cylinder position="-2 3 -8" color= "green" ></a-cylinder>
+      <a-dodecahedron position="0 4 -8"color="purple"></a-dodecahedron>
+      <a-octahedron position="2 2 -8"color="orange"></a-octahedron>
+      <a-torus position="4 5 -8"color="pink"></a-torus>
+      <a-box position="6 1 -8"color="blue"></a-box>
+      
+    
+
+    
+    </a-scene>
+  </body>
+</html>
